@@ -15,9 +15,7 @@ Raw data: files under the [yfinance] are the historical (30 months) End-of-day d
 Processed data: [2024-05-01] is the dataset used to conducted experiments in our paper.
 
 Relation data: files under [Relation] including Industry Relation and Wiki Relation
-```
-tar zxvf relation.tar.gz
-```
+
 
 ### Industry Relation
 
@@ -25,7 +23,7 @@ Under the sector_industry folder, there are row relation file and binary encodin
 
 ### Wiki Relation
 
-Under the wikidata folder, there are row relation file and binary encoding file (.npy) storing the Wiki relations between stocks in NASDAQ and NYSE.
+Under the wikidata folder, there are row relation file and binary encoding file (.npy) storing the Wiki relations between stocks in NASDAQ.
 
 ## Code
 
@@ -35,7 +33,7 @@ Under the wikidata folder, there are row relation file and binary encoding file 
 |:------------------:| :-----------: |
 |       eod.py       | To generate features from raw End-of-day data |
 | sector_industry.py | Generate binary encoding of industry relation |
-|        get_wiki_data.py         | Generate binary encoding of Wiki relation |
+| get_wiki_data.py   | Generate binary encoding of Wiki relation |
 
 ### Training
 | Script | Function |
