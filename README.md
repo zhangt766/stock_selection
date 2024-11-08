@@ -41,6 +41,14 @@ Under the wikidata folder, there are row relation file and binary encoding file 
 | rank_lstm.py | Train a model of Rank_LSTM |
 | relation_rank_lstm.py | Train a model of Relational Stock Ranking |
 
+**Instructions**:
+   - Run the following command:
+     ```bash
+     
+     python relation_rank_lstm.py     -p /workspace/stock_selection/data/2024-05-01     -rn wikidata     -l 8     -u 32     -a 0.1     -ip 1     -m NASDAQ     -e NASDAQ_rank_lstm_seq-8_unit-32_0.csv.npy
+     
+     ```
+     
 ## Reference:
 https://github.com/fulifeng/Temporal_Relational_Stock_Ranking
 
